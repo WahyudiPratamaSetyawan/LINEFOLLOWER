@@ -1,1 +1,20 @@
 #Deskripsi Sensor Line follower
+line follower ini dia menggunakan jenis sensor light(cahaya) dimana secara pengertian light sensor adalah sebuah gelombang radiasi elektromagnetik
+yang dapat dideteksi oleh mata manusia. Ada beberapa jenis cahaya yg perlu kita ketahui mulai dari yang terbesar hingga terkecil :
+(speed light : 299, 792, 458 m/s)
+1. Radiowaves
+2. Microwaves
+3. Infrared
+4. Visible
+5. Ultraviolet
+6. X-rays
+7. Gammarays
+nah nilai yang perlu kita ketahui itu nilai gelombang cahaya visible yaitu :
+1. violet : 400 - 450 nm
+2. blue : 450 - 480 nm
+3. blue green : 480 - 510 nm
+4. green : 510 - 550 nm
+5. yellow green: 550 - 570 nm
+6. yelow : 570 - 590 nm
+7. orange : 570 - 630 nm
+8. red : 630 - 700 nm
