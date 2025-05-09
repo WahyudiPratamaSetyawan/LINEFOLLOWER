@@ -1,2 +1,7 @@
-# LINEFOLLOWER
-🚗 Line Follower Robot Proyek ini adalah implementasi robot Line Follower berbasis mikrokontroler (seperti Arduino), yang mampu mengikuti garis secara otomatis menggunakan sensor infra merah. Cocok untuk pembelajaran dasar robotika, kontrol motor, dan algoritma navigasi sederhana.
+LINEFOLLOWER
+Line Follower Robot adalah sebuah proyek robotika berbasis mikrokontroler (seperti Arduino) yang dirancang untuk mengikuti garis secara otomatis menggunakan sensor inframerah. Proyek ini bertujuan untuk menjadi media pembelajaran mengenai dasar-dasar robotika, pengendalian motor, serta pengembangan algoritma navigasi seperti threshold dan PID.
+Robot ini menggunakan 12 sensor inframerah untuk mendeteksi posisi garis secara lebih akurat dan responsif. Desain dan pengembangannya terinspirasi dari robot line follower kompetisi yang telah dikenal luas, yaitu Ichibot, dengan rencana untuk menyesuaikan dengan spesifikasi Ichiduino Nano versi 2019.
+Proyek ini akan dikembangkan secara bertahap. Tahap awal difokuskan pada pemahaman dan pengujian sensor—mulai dari membaca data sensor, menampilkannya ke layar LCD, hingga memahami karakteristik sinyal yang dihasilkan. Setelah itu, proyek akan dilanjutkan ke tahap implementasi kontrol PID agar robot mampu mengikuti lintasan secara halus dan stabil. Jika memungkinkan, pengembangan akan dilanjutkan ke tahap path planning, di mana robot akan dibekali logika untuk menghadapi rintangan dan pengambilan keputusan di persimpangan.
+Sebagai tujuan jangka panjang, robot ini dirancang agar dapat berkembang hingga versi transporter, yaitu versi lanjutan yang mampu membawa objek ke lokasi tertentu di lintasan secara mandiri. Proyek ini dibuat secara bertahap dan terbuka untuk pembelajaran, eksperimen, dan eksplorasi lebih lanjut dalam bidang robotika.
+
+
