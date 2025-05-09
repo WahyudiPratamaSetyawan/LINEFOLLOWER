@@ -61,8 +61,6 @@ dirancang untuk bekerja optimal bila dipasangkan dengan sumber cahaya inframerah
 - Pengukuran intensitas cahaya.
 - Aplikasi edukasi dan eksperimen.
 
----
-
 ## 3. Peran IR LED dalam Sistem Photodioda
 
 Apa itu IR LED?
@@ -85,8 +83,6 @@ karena filter optiknya memblokir cahaya tampak.
 3. **Efisiensi Energi**:
    - IR LED memancarkan cahaya dengan efisiensi tinggi, sehingga cocok untuk aplikasi yang memerlukan daya rendah seperti remote control atau sensor gerak.
 
----
-
 ## 4. Perbandingan
 
 Berikut adalah tabel perbandingan antara kedua jenis photodiode dan relevansinya dengan IR LED:
@@ -100,8 +96,6 @@ Berikut adalah tabel perbandingan antara kedua jenis photodiode dan relevansinya
 | **Pasangan Ideal**       | Cocok dengan IR LED                   | Cocok dengan LED biasa                  |
 | **Harga**                | Relatif lebih mahal                   | Lebih terjangkau                        |
 | **Aplikasi Utama**       | Remote control, sensor IR, komunikasi IR | Fotodetektor umum, sensor cahaya        |
-
----
 
 ## 5. Kesimpulan
 
