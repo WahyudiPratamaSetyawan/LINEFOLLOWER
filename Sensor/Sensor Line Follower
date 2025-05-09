@@ -18,3 +18,24 @@ nah nilai yang perlu kita ketahui itu nilai gelombang cahaya visible yaitu :
 6. yelow : 570 - 590 nm
 7. orange : 570 - 630 nm
 8. red : 630 - 700 nm
+
+Line follower ini menggunakan satu jenis sensor cahaya di mana sensor cahaya adalah suatu gelombang radiasi elektromagnetik 
+yang bisa terlihat oleh mata manusia. Ada beberapa kategori cahaya yangj perlu kita pahami, mulai dari yang panjang gelombangnya paling besar 
+hingga yang paling kecil:
+(kecepatan cahaya: 299.792.458 m/s)
+Gelombang radio
+Gelombang mikro
+Inframerah
+Tampak 
+Ultraviolet
+Sinar-X
+Sinar gamma
+Nah, informasi penting yang perlu kita ketahui adalah panjang gelombang cahaya tampak, yaitu:
+ungu: 400 - 450 nm
+biru: 450 - 480 nm
+biru kehijauan: 480 - 510 nm
+hijau: 510 - 550 nm
+hijau kuning: 550 - 570 nm
+kuning: 570 - 590 nm
+oranye: 570 - 630 nm
+merah: 630 - 700 nm
