@@ -1,0 +1,27 @@
+1. Mengapa memilih 12 sensor?
+Tujuan utama dari penggunaan 12 sensor adalah untuk memperluas jangkauan deteksi. Rancangan sensor ini mencakup enam unit di sisi kiri 
+dan enam unit di sisi kanan, dengan hubungan antara keduanya yang terlihat pada diagram. Sensor di sisi kiri meliputi: pd1, pd2, pd3, pd4, pd5, pd6. 
+Sementara itu, sensor di sisi kanan terdiri dari: pd7, pd8, pd9, pd10, pd11, pd12. Sensor-sensor yang terhubung adalah sebagai berikut:
+s1 : pd1 dan pd12
+s2 : pd2 dan pd11
+s3 : pd3 dan pd10
+s4 : pd4 dan pd9
+s5 : pd5 dan pd8
+s6 : pd6 dan pd7
+Catatan: pd = photodiode
+
+2. Mengapa output sensor dibatasi hanya 6?
+Jumlah pin output Arduino yang tersedia terbatas, sehingga kita perlu merangkum output sensor seperti yang dijelaskan sebelumnya. 
+Selain itu, fungsi dari masing-masing sensor pada dasarnya sama, yaitu untuk mendeteksi garis, sehingga menghubungkan sensor kiri dan kanan adalah cukup. 
+Dengan begitu, output yang dihasilkan hanya memerlukan 6 pin.
+
+3. Mengapa desain ini memerlukan 2 transistor?
+Karena pelaksanaan fungsi sensor di sisi kiri dan kanan saling terhubung, kita perlu mengatur pembacaan atau deteksi garis secara bergantian. 
+Oleh karena itu, satu transistor digunakan untuk sensor kiri, dan yang lainnya untuk sensor kanan. Pada dasarnya, transistor ini berfungsi sebagai 
+pengalih antara kedua sensor tersebut.
+
+4. Mengapa output disalurkan ke pin analog dan bukan digital?
+Alasan utama pemilihan pin analog adalah agar pembacaan lebih fleksibel. Hal ini dikarenakan pin analog bersifat kontinyu, sedangkan digital 
+hanya memiliki dua status, yaitu 0 dan 1. Ketika berada di jalur yang menantang, diperlukan tingkat akurasi yang lebih tinggi; oleh karena itu, 
+menggunakan pin analog lebih menguntungkan. Output dari sensor ini akan berupa sinyal analog, dikarenakan intensitas cahaya yang dipantulkan yang 
+diterima oleh photodiode bervariasi sesuai dengan warna dan kondisi permukaan (seperti permukaan hitam dan putih yang memiliki tingkat pantulan yang berbeda).
